@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        <img src="./src/imgs/logo.png" alt="">
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Carros</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="container">
+        <div class="list">
+
+            <div class="item active">
+                <div class="car-image"><img src="./src/imgs/1.png" alt=""></div>
+                <div class="content">
+                    <p class="text-1">Único dono</p>
+                    <h2>911 turbo</h2>
+                    <p class="text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio necessitatibus blanditiis autem voluptas qui omnis, dignissimos nemo aspernatur, neque nostrum cum voluptatum accusamus dicta vitae iusto odit nesciunt porro.</p>
+                    <button class="button-info" >Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-image"><img src="./src/imgs/2.png" alt=""></div>
+                <div class="content">
+                    <p class="text-1">Único dono</p>
+                    <h2>Ferrari</h2>
+                    <p class="text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio necessitatibus blanditiis autem voluptas qui omnis, dignissimos nemo aspernatur, neque nostrum cum voluptatum accusamus dicta vitae iusto odit nesciunt porro.</p>
+                    <button class="button-info" >Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-image"><img src="./src/imgs/3.png" alt=""></div>
+                <div class="content">
+                    <p class="text-1">Único dono</p>
+                    <h2>Lamborghini</h2>
+                    <p class="text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio optio necessitatibus blanditiis autem voluptas qui omnis, dignissimos nemo aspernatur, neque nostrum cum voluptatum accusamus dicta vitae iusto odit nesciunt porro.</p>
+                    <button class="button-info" >Saiba mais</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-button" id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="arrow-button" id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+        <div class="indicators">
+            <div class="number">1</div>
+
+            <ul>
+                <li class="button-active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <script src="./src/scripts/script.js"></script>
+</body>
+</html>
